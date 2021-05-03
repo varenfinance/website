@@ -1,0 +1,11 @@
+%svg-common {
+	background: url("svg/sprite.view.svg") no-repeat;
+}
+
+.icon-globe {
+	@extend %svg-common;
+	background-position: 0 0;
+	width: 20px;
+	height: 20px;
+}
+

@@ -1,0 +1,42 @@
+// Medium up
+@media all and (min-width: $breakpoint-medium) {
+  main {
+    min-height: $main-height-large;
+  }
+
+  footer {
+    .grid {
+      flex-wrap: nowrap;
+
+      > * {
+        flex: 1 0 auto;
+        justify-content: inherit;
+
+        &:last-child {
+          justify-content: flex-end;
+          order: unset;
+        }
+
+        &:nth-child(1) {
+          order: unset;
+        }
+      }
+    }
+  }
+
+  .section-head {
+    span {
+      padding: 0 $space-default;
+    }
+
+    &:before {
+      left: 0;
+    }
+  }
+
+  .contact {
+    &.tel {
+      pointer-events: none;
+    }
+  }
+}

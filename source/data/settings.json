@@ -1,0 +1,14 @@
+{
+  "fallback": {
+    "title": "Varen Decentralized Finance ",
+    "description": "Your Strategic Partner in DeFi",
+    "preview": "/assets/images/banner-website.png",
+    "url": "https://varen.finance",
+    "lang": "en",
+    "lang-code": "en-US",
+    "robots": "index, follow"
+  },
+  "favicon-color": "#000120",
+  "theme-color": "#dbdbdb",
+  "project-name": "Varen Finance"
+}

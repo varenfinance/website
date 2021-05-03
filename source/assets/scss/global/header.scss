@@ -1,0 +1,19 @@
+header {
+  height: $header-height;
+  padding: $space-default 0 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.logo-c {
+  padding: 0;
+}
+
+.logo {
+  width: $logo-width;
+  margin: 0;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

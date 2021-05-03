@@ -1,0 +1,19 @@
+<!doctype html>
+<html amp lang="{{lang}}{{^lang}}{{settings.fallback.lang}}{{/lang}}">
+  {{> master__header}}
+  <body>
+  <div class="bgc">
+    <div class="bg"></div>
+  </div>
+  <div>
+    {{> master__navigation}}
+    {{> body}}
+    <amp-install-serviceworker
+      src="/sw.js"
+      layout="nodisplay"
+      data-iframe-src="/install-service-worker.html">
+    </amp-install-serviceworker>
+    {{> master__footer}}
+  </div>
+  </body>
+</html>

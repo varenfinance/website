@@ -1,0 +1,53 @@
+h1 {
+  font-weight: 600;
+  font-size: rem-calc(38);
+  margin: $space-default 0 $space-small;
+  color: $color-light-grey;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: rem-calc(25);
+  margin: $space-xlarge 0 $space-default;
+
+  strong {
+    font-weight: 300;
+    color: $color-highlight;
+  }
+}
+
+h3 {
+  font-weight: 300;
+  font-size: rem-calc(20);
+  margin: $space-large 0 $space-default;
+
+  strong {
+    font-weight: 300;
+    color: $color-highlight;
+  }
+}
+
+p {
+  font-size: $font-size-default;
+  margin: $space-small 0 $space-default;
+  line-height: $font-line-height-default;
+
+  strong {
+    font-weight: normal;
+    color: $color-highlight;
+  }
+
+  &.large {
+    font-size: $font-size-large;
+    line-height: $font-line-height-large;
+  }
+
+  &.small {
+    font-size: $font-size-small;
+    line-height: $font-line-height-small;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

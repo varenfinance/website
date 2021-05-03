@@ -1,0 +1,47 @@
+.row {
+  width: 100%;
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 $space-small;
+  position: relative;
+}
+
+.grid {
+  width: calc(100% + #{$space-grid*2});
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: -#{$space-grid};
+  padding: 0 $space-grid;
+
+  & > * {
+    max-width: calc(100% - #{$space-grid*2});
+    flex-grow: 1;
+    margin: $space-grid;
+  }
+
+  & > .shrink {
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+
+  & > .right {
+    justify-content: flex-end;
+    display: flex;
+  }
+
+  & > .middle {
+    align-items: center;
+    display: flex;
+  }
+
+  & > .center {
+    justify-content: center;
+    display: flex;
+  }
+
+  & > .vend {
+    align-items: flex-end;
+    display: flex;
+  }
+}
