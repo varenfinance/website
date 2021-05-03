@@ -4,7 +4,7 @@ if (location.hostname !== "localhost" ) {
   workbox.precaching.precacheAndRoute([
   {
     "url": "assets/images/banner-website.png",
-    "revision": "d4077001c83999d33fdcf15203388d4f"
+    "revision": "d63f0480b32f444d3cfe1362465b225b"
   },
   {
     "url": "assets/images/coingecko.svg",
@@ -40,11 +40,11 @@ if (location.hostname !== "localhost" ) {
   },
   {
     "url": "assets/images/logo.png",
-    "revision": "bb969551205b8277e5a94fbc51591921"
+    "revision": "fdd46561dcc4e04dbe794df4d080fdca"
   },
   {
     "url": "assets/images/logo.svg",
-    "revision": "251e42bd059f9f6d5398b17767d18f11"
+    "revision": "ba7884c667cb6c2b01b73401621e6bd0"
   },
   {
     "url": "assets/images/medium.svg",
@@ -64,7 +64,7 @@ if (location.hostname !== "localhost" ) {
   },
   {
     "url": "index.html",
-    "revision": "9d887857aa182e2dcab5f2fb90b259e5"
+    "revision": "5d186c84398d6d5b4831569c46728a56"
   },
   {
     "url": "install-service-worker.html",
