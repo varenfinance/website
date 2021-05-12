@@ -2,6 +2,6 @@ const gulp = require('gulp');
 const copy = require('gulp-copy');
 
 module.exports = function copyFiles() {
-  return gulp.src(['source/misc/**/*', '!source/misc/sw-raw.js'])
-   .pipe(copy('dist', {prefix: 6}));
+  return gulp.src(['source/assets/fonts/*'])
+   .pipe(copy('dist/assets/fonts', {prefix: 6}));
 };

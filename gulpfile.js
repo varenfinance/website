@@ -8,6 +8,7 @@ const images = require('./tasks/images');
 const copyIcons = require('./tasks/copyIcons');
 const copyFavicon = require('./tasks/copyFavicon');
 const copyFiles = require('./tasks/copyFiles');
+const copyFonts = require('./tasks/copyFonts');
 const icons = require('./tasks/icons');
 const injection = require('./tasks/injection');
 const newPage = require('./tasks/new-page');
@@ -48,6 +49,7 @@ function watchFiles() {
   gulp.watch('source/**/*.html', gulp.series(templateRefresh, injection));
   gulp.watch('source/assets/images/**/*', images);
   gulp.watch('source/assets/icons/*.svg', icons, copyIcons);
+  gulp.watch('source/assets/fonts/*', copyFonts);
   gulp.watch('source/misc/**/*', copyFiles);
   gulp.watch('dist/**/*', browserSyncReload);
 }
@@ -57,6 +59,7 @@ gulp.task('create',
     newPage,
     icons,
     copyIcons,
+    copyFonts,
     css,
     templates,
     copyFiles,
@@ -70,6 +73,7 @@ gulp.task('new-page',
     newPage,
     icons,
     copyIcons,
+    copyFonts,
     css,
     templates,
     copyFiles,
@@ -83,6 +87,7 @@ gulp.task('build',
     clean,
     icons,
     copyIcons,
+    copyFonts,
     gulp.parallel(
       css,
       images
@@ -96,6 +101,7 @@ gulp.task('postbuild',
   gulp.series(
     copyFiles,
     copyFavicon,
+    copyFonts,
     cleanTmp
   )
 );
@@ -105,6 +111,7 @@ gulp.task('watch',
     clean,
     icons,
     copyIcons,
+    copyFonts,
     gulp.parallel(
       css,
       images

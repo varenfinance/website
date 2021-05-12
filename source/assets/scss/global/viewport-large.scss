@@ -1,5 +1,12 @@
 // Large up
 @media all and (min-width: $breakpoint-large) {
+  h1 {
+    font-size: rem-calc(70);
+  }
+  h2 {
+    font-size: rem-calc(40);
+  }
+
   a {
     &.link:not(.active) {
       &:before {

@@ -1,14 +1,24 @@
 h1 {
   font-weight: 600;
-  font-size: rem-calc(38);
-  margin: $space-default 0 $space-small;
+  font-size: 4vw;
+  margin: 0 0 $space-small;
   color: $color-light-grey;
+  font-family: $font-family-headline;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 h2 {
   font-weight: 300;
-  font-size: rem-calc(25);
-  margin: $space-xlarge 0 $space-default;
+  font-size: 3vw;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $color-link;
 
   strong {
     font-weight: 300;

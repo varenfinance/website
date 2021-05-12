@@ -29,6 +29,7 @@ $main-height-large: calc(100vh - 130px);
 
 // Font Settings
 $font-family-default: "Roboto", sans-serif;
+$font-family-headline: "MonumentExtended-Regular", sans-serif;
 $font-size-large: rem-calc(18);
 $font-size-default: rem-calc(16);
 $font-size-small: rem-calc(14);
@@ -45,8 +46,8 @@ $color-white: #FFF;
 
 $color-highlight: #3949ab;
 $color-highlight-dark: #354085;
-$color-link: #3949ab;
-$color-link-hover: #354085;
+$color-link: #ffd149;
+$color-link-hover: #ffd149;
 // Transition Settings
 $default-transition: all .4s;
 

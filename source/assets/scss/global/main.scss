@@ -1,4 +1,6 @@
 main {
   min-height: $main-height;
   padding: $space-xlarge $space-default;
+  display: flex;
+  align-items: center;
 }
