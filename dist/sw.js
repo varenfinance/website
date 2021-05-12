@@ -64,7 +64,7 @@ if (location.hostname !== "localhost" ) {
   },
   {
     "url": "index.html",
-    "revision": "cdca8bf36db00fdf38c8b43d4c6f1fa5"
+    "revision": "bf52b4272fe882585d9437c04c96eefe"
   },
   {
     "url": "install-service-worker.html",
