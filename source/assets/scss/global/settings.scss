@@ -14,7 +14,7 @@ $space-grid: $space-small;
 
 
 // Logo Settings
-$logo-width: rem-calc(301);
+$logo-width: rem-calc(64);
 $logo-height: rem-calc(64);
 
 $logo-footer-width: rem-calc(43);
@@ -28,8 +28,8 @@ $main-height: calc(100vh - 200px);
 $main-height-large: calc(100vh - 130px);
 
 // Font Settings
-$font-family-default: "Roboto", sans-serif;
-$font-family-headline: "MonumentExtended-Regular", sans-serif;
+$font-family-default: "Avenir", sans-serif;
+$font-family-headline: "MonumentExtended", sans-serif;
 $font-size-large: rem-calc(18);
 $font-size-default: rem-calc(16);
 $font-size-small: rem-calc(14);

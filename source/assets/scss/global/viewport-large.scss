@@ -1,10 +1,11 @@
 // Large up
 @media all and (min-width: $breakpoint-large) {
   h1 {
-    font-size: rem-calc(70);
+    font-size: rem-calc(180);
   }
   h2 {
     font-size: rem-calc(40);
+    margin-top: -$space-default;
   }
 
   a {

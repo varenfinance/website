@@ -35,8 +35,12 @@ if (location.hostname !== "localhost" ) {
     "revision": "b9783e366ad29eb3931e852f3de94765"
   },
   {
+    "url": "assets/images/logo-square.png",
+    "revision": "7652f54e4607d91f161388fc68268847"
+  },
+  {
     "url": "assets/images/logo-square.svg",
-    "revision": "1691e5ecace6b32e2489e0e8a0c48a8e"
+    "revision": "f730a01d340bcb7cc217cb5ceb132508"
   },
   {
     "url": "assets/images/logo.png",
@@ -64,7 +68,7 @@ if (location.hostname !== "localhost" ) {
   },
   {
     "url": "index.html",
-    "revision": "1835a47f0aef1e93271b64b904746efb"
+    "revision": "12840082e3429cb1e60611b783fafb56"
   },
   {
     "url": "install-service-worker.html",

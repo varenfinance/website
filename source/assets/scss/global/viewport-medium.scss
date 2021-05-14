@@ -1,11 +1,12 @@
 // Medium up
 @media all and (min-width: $breakpoint-medium) {
   h1 {
-    font-size: rem-calc(45);
+    font-size: rem-calc(140);
   }
 
   h2 {
     font-size: rem-calc(30);
+    margin-top: -$space-small;
   }
 
   main {
