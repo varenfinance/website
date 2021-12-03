@@ -318,7 +318,12 @@ export const settings: ISettings = {
             class: 'font-avenir text-gray',
           },
           {
-            title: 'Stake',
+            title: 'Stake VRN',
+            link: 'https://varen.exchange/#/stake/gov',
+            class: 'font-avenir text-gray',
+          },
+          {
+            title: 'Stake VRN/ETH',
             link: 'https://varen.exchange/#/stake',
             class: 'font-avenir text-gray',
           },
