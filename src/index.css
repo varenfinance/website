@@ -134,6 +134,11 @@ body {
   border-color: transparent transparent transparent #ffd149;
 }
 
+.description-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .description-container .varenXLogo {
   width: 182px;
   height: 50px;
@@ -174,7 +179,8 @@ body {
 
 @media screen and (min-width: 320px) {
   .description-container .card-image {
-    width: 346px;
+    width: 100%;
+    height: auto;
   }
 
   .description-container .varenXLogo {
@@ -224,7 +230,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .description-container .card-image {
-    width: 408px;
+    width: 100%;
+    height: auto;
   }
   .swap-image {
     width: 93px;
@@ -278,7 +285,8 @@ body {
 
 @media screen and (min-width: 1280px) {
   .description-container .card-image {
-    width: 555px;
+    width: auto;
+    max-width: 100%;
   }
   .swap-image {
     width: 116px;

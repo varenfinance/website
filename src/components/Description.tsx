@@ -50,8 +50,8 @@ export const Description = () => {
           <div
             key={`description-card-${index}`}
             className={
-              'flex gap-10 justify-between xs:flex-col md:flex-row ' +
-              (index % 2 === 0 ? '' : 'flex-row-reverse md:flex-row-reverse xl:mt-28 md:mt-24 xs:mt-12')
+              'flex gap-10 justify-between xs:flex-col-reverse lg:flex-row ' +
+              (index % 2 === 0 ? '' : 'flex-row-reverse lg:flex-row-reverse xl:mt-28 md:mt-24 xs:mt-12')
             }
           >
             <img className='card-image' src={card.image} alt='card' ref={index === 0 ? firstCard : null} />
