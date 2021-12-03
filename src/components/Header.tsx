@@ -25,12 +25,12 @@ function Header(props: Props) {
       <img src={fullLogo} alt='fullLogo' />
       <div className='font-avenir flex-shrink hidden items-center justify-start text-sm rounded bg-transparent text-gold  md:text-xs md:flex'>
         {settings.navlinks.map((links) => (
-          <div key={links.title} className={`p-3 h-11 ${links.class}`}>
+          <div key={links.title} className={`h-11 ${links.class}`}>
             <a
               target='_blank'
               rel='noreferrer'
               href={links.link}
-              style={{ display: 'block' }}
+              style={{ display: 'block', padding: '0.75rem' }}
             >
               {links.title}
             </a>
