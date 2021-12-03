@@ -1,6 +1,5 @@
-.idea
-_stuff
-tmp
 node_modules
-package-lock.json
-debug.log
+.DS_Store
+dist
+dist-ssr
+*.local
