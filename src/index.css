@@ -68,6 +68,11 @@ body {
   position: absolute;
   top: 40%;
   transform: translateY(-50%);
+    z-index: 10;
+}
+
+.links-container {
+    z-index: 1;
 }
 
 .home-container .links-container {
