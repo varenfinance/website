@@ -119,6 +119,11 @@ interface ISettings {
 export const settings: ISettings = {
   navlinks: [
     {
+      title: 'STAKING',
+      link: 'https://varen.exchange/#/stake',
+      class: 'nav-link text-center text-f14px md:text-f12px lg:text-f14px hover:bg-hoverNav hover:rounded md:w-auto',
+    },
+    {
       title: 'GOVERNANCE',
       link: 'https://snapshot.org/#/varen.eth',
       class: 'nav-link text-center text-f14px md:text-f12px lg:text-f14px hover:bg-hoverNav hover:rounded md:w-auto',

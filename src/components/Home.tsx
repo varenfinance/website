@@ -1,7 +1,6 @@
 import Header from './Header';
 import { settings } from '../settings';
 import NFT from '../assets/images/nft.webp';
-import ShipSVG from '../assets/svg/ship.svg';
 
 type Props = {
   isOpen: boolean;
@@ -31,7 +30,7 @@ export const Home = (props: Props) => {
           <div
             className={`${
               settings.home.learnMore.class ?? ''
-            } p-2 mr-auto rounded-sm w-36 border-primary border ripple block relative`}
+            } p-2 mr-auto rounded-sm w-36 border-primary border block relative `}
           >
             <a target='_blank' rel='noreferrer' href={settings.home.learnMore.link} className='align-middle'>
               {settings.home.learnMore.title}
@@ -75,11 +74,6 @@ export const Home = (props: Props) => {
             </a>
           ))}
         </div>
-      </div>
-      <div className={'absolute right-0 bottom-2 xs:hidden md:block' + settings.boxCss}>
-        <a href={'/'} target='_blank' rel='noreferrer'>
-          <img className='w-8 h-8' src={ShipSVG} alt={'nft'} />
-        </a>
       </div>
     </div>
   );
