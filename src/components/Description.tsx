@@ -74,7 +74,7 @@ export const Description = () => {
               <div
                 className={`p-2 ${
                   card.button.class ?? ''
-                } rounded-sm w-36 xs:mt-7`}
+                } rounded-sm w-36 xs:mb-7`}
               >
                 <a target="_blank" rel="noreferrer" href={card.button.link}>
                   {card.button.text}
