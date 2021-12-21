@@ -1,119 +1,119 @@
-import { Info } from './components/Common';
-import debankSVG from './assets/svg/crypto/debank.svg';
-import coingeckoSVG from './assets/svg/crypto/coingecko.svg';
-import coinmarketcapSVG from './assets/svg/crypto/coinmarketcap.svg';
-import defipulseSVG from './assets/svg/crypto/defipulse.svg';
-import zerionSVG from './assets/svg/crypto/zerion.svg';
-import discordGoldSVG from './assets/svg/social/discord-gold.svg';
-import discordSVG from './assets/svg/social/discord.svg';
-import githubSVG from './assets/svg/social/github.svg';
-import mediumSVG from './assets/svg/social/medium.svg';
-import twitterSVG from './assets/svg/social/twitter.svg';
-import telegramSVG from './assets/svg/social/telegram.svg';
-import varenXSVG from './assets/svg/varenX.svg';
-import Swap from './assets/images/Swap.png';
-import SwapNew from './assets/images/Swap_New.png';
-import varenXFullLogo from './assets/svg/varenXFull.svg';
+import { Info } from './components/Common'
+import debankSVG from './assets/svg/crypto/debank.svg'
+import coingeckoSVG from './assets/svg/crypto/coingecko.svg'
+import coinmarketcapSVG from './assets/svg/crypto/coinmarketcap.svg'
+import defipulseSVG from './assets/svg/crypto/defipulse.svg'
+import zerionSVG from './assets/svg/crypto/zerion.svg'
+import discordGoldSVG from './assets/svg/social/discord-gold.svg'
+import discordSVG from './assets/svg/social/discord.svg'
+import githubSVG from './assets/svg/social/github.svg'
+import mediumSVG from './assets/svg/social/medium.svg'
+import twitterSVG from './assets/svg/social/twitter.svg'
+import telegramSVG from './assets/svg/social/telegram.svg'
+import varenXSVG from './assets/svg/varenX.svg'
+import Swap from './assets/images/Swap.png'
+import SwapNew from './assets/images/Swap_New.png'
+import varenXFullLogo from './assets/svg/varenXFull.svg'
 
-import firstPNG from './assets/images/swap/first.png';
-import secondPNG from './assets/images/swap/second.png';
-import thirdPNG from './assets/images/swap/third.png';
-import fourthPNG from './assets/images/swap/fourth.png';
-import fifthPNG from './assets/images/swap/fifth.png';
+import firstPNG from './assets/images/swap/first.png'
+import secondPNG from './assets/images/swap/second.png'
+import thirdPNG from './assets/images/swap/third.png'
+import fourthPNG from './assets/images/swap/fourth.png'
+import fifthPNG from './assets/images/swap/fifth.png'
 
-import discordFace from './assets/svg/social/discord-face.svg';
+import discordFace from './assets/svg/social/discord-face.svg'
 
 interface ISettings {
   navlinks: {
-    title: string;
-    link: string;
-    class?: string;
-  }[];
-  homeIntro?: string;
+    title: string
+    link: string
+    class?: string
+  }[]
+  homeIntro?: string
   home: Record<
     'heading' | 'launchApp' | 'learnMore',
     {
-      title: string;
-      link?: string;
-      class?: string;
+      title: string
+      link?: string
+      class?: string
     }
-  >;
+  >
   links: Record<
     'crypto' | 'social',
     {
-      path: string;
-      title: string;
-      link: string;
-      leftElement?: React.ReactNode;
-      rightElement?: React.ReactNode;
-      class?: string;
+      path: string
+      title: string
+      link: string
+      leftElement?: React.ReactNode
+      rightElement?: React.ReactNode
+      class?: string
     }[]
-  >;
+  >
   description: {
-    varenXLogo: string;
+    varenXLogo: string
     cards: {
-      image: string;
+      image: string
       title: {
-        text: string;
-        class?: string;
-      };
+        text: string
+        class?: string
+      }
       description: {
-        text: string;
-        class?: string;
-      };
+        text: string
+        class?: string
+      }
       button: {
-        text: string;
-        link: string;
-        class?: string;
-      };
-    }[];
-  };
+        text: string
+        link: string
+        class?: string
+      }
+    }[]
+  }
   swap: {
-    image: string;
-  }[];
+    image: string
+  }[]
   About: {
     about: Record<
       'heading_first' | 'heading_second' | 'sub_heading',
       {
-        title: string;
-        class?: string;
+        title: string
+        class?: string
       }
-    >;
+    >
     discord: {
       title: {
-        text: string;
-        class?: string;
-      };
+        text: string
+        class?: string
+      }
       description: {
-        text: string;
-        class?: string;
-      };
+        text: string
+        class?: string
+      }
       button: {
-        text: string;
-        leftElement?: string;
-        link: string;
-        class?: string;
-      };
-    };
-  };
+        text: string
+        leftElement?: string
+        link: string
+        class?: string
+      }
+    }
+  }
   Footer: {
     links: {
-      title: string;
-      class?: string;
-      linksClass?: string;
+      title: string
+      class?: string
+      linksClass?: string
       links: {
-        title?: string;
-        icon?: string;
-        link?: string;
-        class?: string;
-      }[];
-    }[];
+        title?: string
+        icon?: string
+        link?: string
+        class?: string
+      }[]
+    }[]
     copyright: {
-      title: string;
-      class?: string;
-    };
-  };
-  boxCss: string;
+      title: string
+      class?: string
+    }
+  }
+  boxCss: string
 }
 
 export const settings: ISettings = {
@@ -121,17 +121,20 @@ export const settings: ISettings = {
     {
       title: 'STAKING',
       link: 'https://varen.exchange/#/stake',
-      class: 'nav-link text-center text-f14px md:text-f12px lg:text-f14px hover:bg-hoverNav hover:rounded md:w-auto',
+      class:
+        'nav-link text-center text-f14px md:text-f12px lg:text-f14px hover:bg-hoverNav hover:rounded md:w-auto',
     },
     {
       title: 'GOVERNANCE',
       link: 'https://snapshot.org/#/varen.eth',
-      class: 'nav-link text-center text-f14px md:text-f12px lg:text-f14px hover:bg-hoverNav hover:rounded md:w-auto',
+      class:
+        'nav-link text-center text-f14px md:text-f12px lg:text-f14px hover:bg-hoverNav hover:rounded md:w-auto',
     },
     {
       title: 'FORUM',
       link: 'https://forum.varen.finance/',
-      class: 'nav-link text-center text-f14px md:text-f12px lg:text-f14px hover:bg-hoverNav hover:rounded md:w-auto',
+      class:
+        'nav-link text-center text-f14px md:text-f12px lg:text-f14px hover:bg-hoverNav hover:rounded md:w-auto',
     },
     {
       title: 'Launch App',
@@ -143,7 +146,7 @@ export const settings: ISettings = {
   homeIntro: varenXFullLogo,
   home: {
     heading: {
-      title: 'Multi-chain swapping dApp, powered by RenVM',
+      title: 'Cross-chain swapping dApp, powered by RenVM',
       class: ' text-gold text-f32px md:text-f32px xs:text-f18px',
     },
     launchApp: {
@@ -160,11 +163,11 @@ export const settings: ISettings = {
   },
   links: {
     crypto: [
-
       {
         path: zerionSVG,
         title: 'zerion',
-        link: 'https://app.zerion.io/market/asset/VRN-0x72377f31e30a405282b522d588aebbea202b4f23',
+        link:
+          'https://app.zerion.io/market/asset/VRN-0x72377f31e30a405282b522d588aebbea202b4f23',
       },
       {
         path: defipulseSVG,
@@ -188,7 +191,8 @@ export const settings: ISettings = {
         leftElement: Info({
           text: 'Contribute Now!',
           position: 'left',
-          className: 'bg-gold text-black xs:text-f10px md:text-f18px font-avenirHeavy',
+          className:
+            'bg-gold text-black xs:text-f10px md:text-f18px font-avenirHeavy',
         }),
         title: 'discord',
         link: 'https://discord.varen.finance/',
@@ -222,11 +226,14 @@ export const settings: ISettings = {
         image: SwapNew,
         title: {
           text: 'Go wherever you want, whenever you want',
-          class: 'card-title font-euclidMd title xl:text-f48px md:text-f36px xs:text-f24px',
+          class:
+            'card-title font-euclidMd title xl:text-f48px md:text-f36px xs:text-f24px',
         },
         description: {
-          text: 'Swap your favorite ERC-20 tokens direct to any RenVM-supported chain and back. Seamlessly. With VarenX',
-          class: 'card-description font-avenir description xl:text-f30px md:text-f24px xs:text-f14px',
+          text:
+            'Swap your favorite ERC-20 tokens direct to any RenVM-supported chain and back. Seamlessly. With VarenX',
+          class:
+            'card-description font-avenir description xl:text-f30px md:text-f24px xs:text-f14px',
         },
         button: {
           link: 'https://varenx.com/',
@@ -239,11 +246,14 @@ export const settings: ISettings = {
         image: Swap,
         title: {
           text: 'All in one seamless transaction',
-          class: 'card-title font-euclidMd title xl:text-f48px md:text-f36px xs:text-f24px',
+          class:
+            'card-title font-euclidMd title xl:text-f48px md:text-f36px xs:text-f24px',
         },
         description: {
-          text: 'VarenX smart contracts are developed to mint, burn and swap your assets in a single transaction, saving you time, effort and gas.',
-          class: 'card-description font-avenir description xl:text-f30px md:text-f24px xs:text-f14px',
+          text:
+            'VarenX smart contracts are developed to mint, burn and swap your assets in a single transaction, saving you time, effort and gas.',
+          class:
+            'card-description font-avenir description xl:text-f30px md:text-f24px xs:text-f14px',
         },
         button: {
           link: 'https://varenx.com/',
@@ -275,7 +285,8 @@ export const settings: ISettings = {
     about: {
       heading_first: {
         title: 'A collective powerhouse',
-        class: 'font-euclidMd xl:mt-5 md:mt-4 xs:mt-5 md:text-f48px xs:text-f24px',
+        class:
+          'font-euclidMd xl:mt-5 md:mt-4 xs:mt-5 md:text-f48px xs:text-f24px',
       },
       heading_second: {
         title: 'making DeFi accessible',
@@ -284,17 +295,21 @@ export const settings: ISettings = {
       sub_heading: {
         title:
           'Varen is a community-governed DAO that strives to achieve its collective vision of bringing frictionless cross-chain accessibility to the world by relentlessly building high usability dapps.',
-        class: 'font-avenir text-gray xs:text-f14px md:text-f24px lg:text-f30px',
+        class:
+          'font-avenir text-gray xs:text-f14px md:text-f24px lg:text-f30px',
       },
     },
     discord: {
       title: {
         text: 'Join us now on Discord!',
-        class: 'discord-heading font-euclid text-black font-bold md:text-f24px xs:text-f14px',
+        class:
+          'discord-heading font-euclid text-black font-bold md:text-f24px xs:text-f14px',
       },
       description: {
-        text: 'No matter your ethnicity, gender, or location. You are free to join!',
-        class: 'discord-description font-avenir text-black md:text-f18px xs:text-f12px',
+        text:
+          'No matter your ethnicity, gender, or location. You are free to join!',
+        class:
+          'discord-description font-avenir text-black md:text-f18px xs:text-f12px',
       },
       button: {
         text: 'Join',
@@ -332,7 +347,6 @@ export const settings: ISettings = {
             link: 'https://varen.exchange/#/stake',
             class: 'font-avenir text-gray',
           },
-
         ],
       },
       {
@@ -372,7 +386,6 @@ export const settings: ISettings = {
             link: 'https://discord.varen.finance/',
             class: 'font-avenir text-gray',
           },
-
         ],
       },
       {
@@ -408,5 +421,6 @@ export const settings: ISettings = {
       class: 'text-center text-white',
     },
   },
-  boxCss: ' xl:pt-12 xl:pl-24 xl:pr-24 lg:pt-14 lg:pl-14 lg:pr-14 xs:pt-5 xs:pl-4 xs:pr-4',
-};
+  boxCss:
+    ' xl:pt-12 xl:pl-24 xl:pr-24 lg:pt-14 lg:pl-14 lg:pr-14 xs:pt-5 xs:pl-4 xs:pr-4',
+}
