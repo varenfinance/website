@@ -1,5 +1,5 @@
-import { Info } from "./components/Common";
-import debankSVG from "./assets/svg/crypto/debank.svg";
+import Swap from "./assets/images/Swap.png";
+import SwapNew from "./assets/images/Swap_New.png";
 import coingeckoSVG from "./assets/svg/crypto/coingecko.svg";
 import coinmarketcapSVG from "./assets/svg/crypto/coinmarketcap.svg";
 import zerionSVG from "./assets/svg/crypto/zerion.svg";
@@ -7,18 +7,17 @@ import discordGoldSVG from "./assets/svg/social/discord-gold.svg";
 import discordSVG from "./assets/svg/social/discord.svg";
 import githubSVG from "./assets/svg/social/github.svg";
 import mediumSVG from "./assets/svg/social/medium.svg";
-import twitterSVG from "./assets/svg/social/twitter.svg";
 import telegramSVG from "./assets/svg/social/telegram.svg";
+import twitterSVG from "./assets/svg/social/twitter.svg";
 import varenXSVG from "./assets/svg/varenX.svg";
-import Swap from "./assets/images/Swap.png";
-import SwapNew from "./assets/images/Swap_New.png";
 import varenXFullLogo from "./assets/svg/varenXFull.svg";
+import { Info } from "./components/Common";
 
+import fifthPNG from "./assets/images/swap/fifth.png";
 import firstPNG from "./assets/images/swap/first.png";
+import fourthPNG from "./assets/images/swap/fourth.png";
 import secondPNG from "./assets/images/swap/second.png";
 import thirdPNG from "./assets/images/swap/third.png";
-import fourthPNG from "./assets/images/swap/fourth.png";
-import fifthPNG from "./assets/images/swap/fifth.png";
 
 import discordFace from "./assets/svg/social/discord-face.svg";
 
@@ -318,23 +317,8 @@ export const settings: ISettings = {
         linksClass: "flex flex-col gap-3",
         links: [
           {
-            title: "VarenX",
-            link: "https://varenx.com",
-            class: "font-avenir text-gray",
-          },
-          {
-            title: "Migrate",
-            link: "https://varen.exchange/#/migrate",
-            class: "font-avenir text-gray",
-          },
-          {
-            title: "Stake VRN",
-            link: "https://varen.exchange/#/stake/gov",
-            class: "font-avenir text-gray",
-          },
-          {
-            title: "Stake VRN/ETH",
-            link: "https://varen.exchange/#/stake",
+            title: "GasHopper",
+            link: "https://gashopper.io",
             class: "font-avenir text-gray",
           },
         ],
@@ -398,10 +382,6 @@ export const settings: ISettings = {
           {
             icon: mediumSVG,
             link: "https://blog.varen.finance/",
-          },
-          {
-            icon: telegramSVG,
-            link: "https://telegram.varen.finance/",
           },
         ],
       },
